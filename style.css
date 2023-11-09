@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url('bg.jpg');
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	margin-left: 50%;
+	padding: 3%;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: 0.000000000001s;
+
+}
+
+ul li a:hover{
+
+	color: orange;
+
+}
+
+.heading1{
+	color: white;
+	margin-left: 35%;
+	margin-top: 15%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.heading2{
+	color: white;
+	margin-left: 35%;
+	margin-top: 2%;
+	font-size: 70px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.btn1{
+	color: white;
+	text-decoration: none;
+	margin-left: 40%;
+	border: 2px solid white;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+.btn2{
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+
+.menu{
+	margin-top: 2%;
+	padding: 5px;
+
+}
+.btn1:hover{
+	background-color: orange;
+	color: white;
+	transition: 0.000000000001s;
+
+
+}
+
+.btn2:hover{
+	background-color: orange;
+	color: white;
+	transition: 0.000000000001s;
+
+}
+
+.active{
+
+	color: orange;
+
+}
